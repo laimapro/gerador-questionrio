@@ -1,0 +1,96 @@
+#MainMenu {visibility: hidden;}
+
+  
+.css-h5rgaw{
+    visibility: hidden;
+}
+
+ .css-10trblm{
+color: white;
+}
+
+.css-183lzff{
+    color: white;
+}
+
+
+.stButton > button{
+    color: white;
+    background-color: #C60C35;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.css-1x8cf1d{
+    background-color: #C60C35;
+    color: white;
+}
+.stButton > button:hover{
+    color: white;
+    background-color: #C60C35;
+    border-color: #C60C35;
+    font-size: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.css-fg4pbf{
+    color: white;
+    
+    
+}
+.css-81oif8{
+    color: white;
+}
+.st-ef{
+    color: white;
+    border: 1px solid black;
+    
+}
+.st-eh{
+    color: white;
+    border: 1px solid black;
+    
+}
+
+.st-e0{
+    color: white;
+    border: 1px solid black;
+    
+}
+
+.st-ej{
+    background-color: #e09c1f;
+    color: black;
+    border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+.st-el{
+    background-color: #e09c1f;
+    color: black;
+    border: 1px solid white;
+}
+
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(to right,#2E8B57,#20B2AA, #2F4F4F);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    opacity: 0.8;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
